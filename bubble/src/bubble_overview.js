@@ -441,7 +441,6 @@ function bubbleChart() {
     }
     
     function showDrug(d){
-      $('.offset-area').addClass("show_hide");
 
       d3.select("#drugDetail").selectAll("div").remove();
       d3.select("#topicModelDetail").selectAll("div").remove();
@@ -474,7 +473,9 @@ function bubbleChart() {
       }else{
         d3.select("#topicModelDetail")
           .html('<div id="topicModel_container"><h5> Sorry, the drug <b class="text-primary">'+d.name+'</b> has no topic models.</h5></div>');
-      }   
+      }
+    
+      $('.offset-area').addClass("show_hide");   
     }
   
     /*

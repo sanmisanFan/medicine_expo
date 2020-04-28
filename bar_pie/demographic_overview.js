@@ -6,7 +6,6 @@ arr=[147,3020,10337,24942,29031,41358,35711,17762,6560];
 var MAX = Math.max.apply(null, arr);
 
 var builderJson = {
-  "all": 168868,
   "charts": {
     "0-2": arr[0],
     "3-18": arr[1],
@@ -42,7 +41,6 @@ option = {
     tooltip: {},
     title: [{
         text: 'Age group',
-        subtext: 'total ' + builderJson.all,
         left: '25%',
         textAlign: 'center'
     }, {
