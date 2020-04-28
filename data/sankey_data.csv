@@ -1,0 +1,301 @@
+parent,child,count
+1 - High Blood Pressure,2 - lisinopril,8165
+1 - Other,2 - lisinopril,245
+2 - lisinopril,3 - Dizziness,9049
+1 - Pain,2 - oxycodone,6466
+1 - Neuropathic Pain,2 - oxycodone,1608
+2 - oxycodone,3 - Nausea,6579
+1 - Other,2 - prednisone,1170
+1 - Asthma,2 - prednisone,1139
+2 - prednisone,3 - other_sides,5170
+1 - Pain,2 - tramadol,3466
+1 - Disorder characterized by Stiff, Tender & Painful Muscles,2 - tramadol,698
+2 - tramadol,3 - other_sides,2932
+1 - Neuropathic Pain,2 - gabapentin,1985
+1 - Pain Originating From a Nerve,2 - gabapentin,1386
+2 - gabapentin,3 - Drowsiness,3634
+1 - Type 2 Diabetes Mellitus,2 - metformin,3762
+1 - Disease of Ovaries with Cysts,2 - metformin,561
+2 - metformin,3 - Nausea,5097
+1 - Migraine Prevention,2 - topamax,2760
+1 - Other,2 - topamax,920
+2 - topamax,3 - Tiredness,4296
+1 - Neuropathic Pain,2 - neurontin,1580
+1 - Pain Originating From a Nerve,2 - neurontin,1012
+2 - neurontin,3 - Drowsiness,4156
+1 - Depression,2 - lexapro,1920
+1 - Repeated Episodes of Anxiety,2 - lexapro,921
+2 - lexapro,3 - Nausea,4134
+1 - Pain,2 - hydrocodone,3922
+1 - Other,2 - hydrocodone,172
+2 - hydrocodone,3 - Nausea,3962
+1 - Pain,2 - methadone hcl,1955
+1 - Narcotic Addiction,2 - methadone hcl,640
+2 - methadone hcl,3 - Nausea,3411
+1 - Depression,2 - effexor xr,1836
+1 - Repeated Episodes of Anxiety,2 - effexor xr,440
+2 - effexor xr,3 - Nausea,3486
+1 - Neuropathic Pain,2 - lyrica,1283
+1 - Disorder characterized by Stiff & Painful Muscles,2 - lyrica,732
+2 - lyrica,3 - Drowsiness,3069
+1 - Repeated Episodes of Anxiety,2 - alprazolam,659
+1 - Panic Disorder,2 - alprazolam,602
+2 - alprazolam,3 - Drowsiness,2163
+1 - Bipolar Depression,2 - seroquel,793
+1 - Other,2 - seroquel,614
+2 - seroquel,3 - Constipation,2761
+1 - Bipolar Depression,2 - lamictal,1464
+1 - Epileptic Seizure,2 - lamictal,320
+2 - lamictal,3 - Dizziness,2757
+1 - Depression,2 - zoloft,1295
+1 - Panic Disorder,2 - zoloft,468
+2 - zoloft,3 - Nausea,2662
+1 - Pain,2 - morphine sulfate,1548
+1 - Chronic Pain with Narcotic Drug Tolerance,2 - morphine sulfate,212
+2 - morphine sulfate,3 - Nausea,1014
+1 - Overweight,2 - phentermine,2166
+1 - Other,2 - phentermine,134
+2 - phentermine,3 - Dizziness,2367
+1 - Pain,2 - naproxen,655
+1 - Other,2 - naproxen,246
+2 - naproxen,3 - other_sides,2434
+1 - Other,2 - azithromycin,552
+1 - Bacterial Infection with Chronic Bronchitis,2 - azithromycin,296
+2 - azithromycin,3 - Nausea,2340
+1 - Depression,2 - wellbutrin,1253
+1 - Stop Smoking,2 - wellbutrin,183
+2 - wellbutrin,3 - Dry mouth,1969
+1 - Panic Disorder,2 - clonazepam,1110
+1 - Other,2 - clonazepam,622
+2 - clonazepam,3 - other_sides,2212
+1 - Depression,2 - celexa,1227
+1 - Repeated Episodes of Anxiety,2 - celexa,331
+2 - celexa,3 - Nausea,2224
+1 - Attention Deficit Disorder with Hyperactivity,2 - adderall,1678
+1 - Other,2 - adderall,480
+2 - adderall,3 - Loss of appetite,2349
+1 - Depression,2 - paxil,542
+1 - Panic Disorder,2 - paxil,469
+2 - paxil,3 - Nausea,2168
+1 - Underactive Thyroid,2 - levothyroxine,1668
+1 - Other,2 - levothyroxine,186
+2 - levothyroxine,3 - other_sides,2172
+1 - Chronic Trouble Sleeping,2 - trazodone hcl,1668
+1 - Depression,2 - trazodone hcl,216
+2 - trazodone hcl,3 - Nausea,2099
+1 - Other,2 - amoxicillin,493
+1 - Acute Bacterial Infection of the Sinuses,2 - amoxicillin,432
+2 - amoxicillin,3 - Diarrhea,1400
+1 - Depression,2 - prozac,976
+1 - Bipolar Depression,2 - prozac,148
+2 - prozac,3 - Nausea,1759
+1 - Chronic Trouble Sleeping,2 - ambien,1241
+1 - Difficulty Falling Asleep,2 - ambien,376
+2 - ambien,3 - Dizziness  may occur.,1730
+1 - Pain,2 - vicodin,1626
+1 - Other,2 - vicodin,51
+2 - vicodin,3 - Nausea,1677
+1 - Depression,2 - citalopram hbr,883
+1 - Repeated Episodes of Anxiety,2 - citalopram hbr,270
+2 - citalopram hbr,3 - Nausea,1586
+1 - Arthritis,2 - diclofenac,382
+1 - Other,2 - diclofenac,356
+2 - diclofenac,3 - Skin  irritation/redness may occur at the application site.,1285
+1 - Migraine Prevention,2 - propranolol,532
+1 - Essential Tremor,2 - propranolol,292
+2 - propranolol,3 - Dizziness,1125
+1 - Chronic Pain,2 - oxycontin,924
+1 - Chronic Pain with Narcotic Drug Tolerance,2 - oxycontin,303
+2 - oxycontin,3 - Nausea,1482
+1 - Chronic Trouble Sleeping,2 - zolpidem,1011
+1 - Difficulty Falling Asleep,2 - zolpidem,380
+2 - zolpidem,3 - Dizziness  may occur.,1469
+1 - Depression,2 - pristiq,789
+1 - Major Depressive Disorder,2 - pristiq,191
+2 - pristiq,3 - Drowsiness,1419
+1 - Attention Deficit Disorder with Hyperactivity,2 - methylphenidate,1103
+1 - Other,2 - methylphenidate,225
+2 - methylphenidate,3 - Nervousness,1628
+1 - High Blood Pressure,2 - metoprolol,763
+1 - Other,2 - metoprolol,173
+2 - metoprolol,3 - Dizziness,1331
+1 - Bipolar Depression,2 - lamotrigine,704
+1 - Other,2 - lamotrigine,193
+2 - lamotrigine,3 - Dizziness,1452
+1 - Depression,2 - bupropion,623
+1 - Stop Smoking,2 - bupropion,221
+2 - bupropion,3 - Nausea,786
+1 - High Blood Pressure,2 - atenolol,900
+1 - Rapid Ventricular Heartbeat,2 - atenolol,82
+2 - atenolol,3 - Dizziness,1267
+1 - Attention Deficit Disorder with Hyperactivity,2 - vyvanse,1164
+1 - Other,2 - vyvanse,182
+2 - vyvanse,3 - Nausea,1384
+1 - Bacterial Urinary Tract Infection,2 - cipro,596
+1 - Other,2 - cipro,306
+2 - cipro,3 - Discomfort,1285
+1 - High Blood Pressure,2 - diovan,1209
+1 - Other,2 - diovan,17
+2 - diovan,3 - Dizziness,853
+1 - Overweight,2 - adipex-p,1152
+1 - Other,2 - adipex-p,26
+2 - adipex-p,3 - Dizziness,1199
+1 - Anxious,2 - lorazepam,769
+1 - Chronic Trouble Sleeping,2 - lorazepam,236
+2 - lorazepam,3 - Drowsiness,1222
+1 - Acne,2 - doxycycline,286
+1 - Other,2 - doxycycline,153
+2 - doxycycline,3 - other_sides,1178
+1 - Stop Smoking,2 - chantix,1152
+1 - Other,2 - chantix,17
+2 - chantix,3 - Nausea,1169
+1 - High Cholesterol,2 - simvastatin,595
+1 - Combined High Blood Cholesterol and Triglyceride Level,2 - simvastatin,178
+2 - simvastatin,3 - other_sides,1048
+1 - Other,2 - amitriptyline hcl,302
+1 - Migraine Prevention,2 - amitriptyline hcl,301
+2 - amitriptyline hcl,3 - Drowsiness,1128
+1 - High Blood Pressure,2 - amlodipine,922
+1 - Other,2 - amlodipine,234
+2 - amlodipine,3 - Dizziness,802
+1 - Underactive Thyroid,2 - synthroid,778
+1 - Thyroid Cancer,2 - synthroid,95
+2 - synthroid,3 - Hair loss,1094
+1 - Treatment to Prevent a Blood Clot in a Vascular Stent,2 - plavix,394
+1 - Heart Attack,2 - plavix,158
+2 - plavix,3 - Easy bleeding/bruising,1067
+1 - Anxious,2 - ativan,731
+1 - Chronic Trouble Sleeping,2 - ativan,128
+2 - ativan,3 - Drowsiness,1045
+1 - Condition in which Stomach Acid is Pushed Into the Esophagus,2 - omeprazole,475
+1 - Conditions of Excess Stomach Acid Secretion,2 - omeprazole,173
+2 - omeprazole,3 - Upset stomach,1125
+1 - Cough,2 - mucinex,474
+1 - Cold Symptoms,2 - mucinex,360
+2 - mucinex,3 - Upset stomach,445
+1 - Other,2 - levaquin,195
+1 - Acute Inflammation of the Maxillary Sinus,2 - levaquin,151
+2 - levaquin,3 - Nausea,997
+1 - Birth Control,2 - sprintec,1127
+1 - Abnormally Long or Heavy Periods,2 - sprintec,128
+2 - sprintec,3 - Nausea,1666
+1 - High Blood Pressure,2 - diltiazem hcl,91
+1 - Supraventricular Cardiac Arrhythmia,2 - diltiazem hcl,26
+2 - diltiazem hcl,3 - Dizziness,168
+1 - Bipolar Depression,2 - depakote,279
+1 - Migraine Prevention,2 - depakote,148
+2 - depakote,3 - Diarrhea,1017
+1 - Panic Disorder,2 - klonopin,579
+1 - Other,2 - klonopin,210
+2 - klonopin,3 - Drowsiness,986
+1 - Depression,2 - venlafaxine,427
+1 - Repeated Episodes of Anxiety,2 - venlafaxine,139
+2 - venlafaxine,3 - Nausea,918
+1 - Osteoporosis,2 - actonel,448
+1 - Decreased Bone Mass Following Menopause,2 - actonel,328
+2 - actonel,3 - Upset stomach  may occur.,714
+1 - Other,2 - clindamycin hcl,530
+1 - Skin Infection,2 - clindamycin hcl,64
+2 - clindamycin hcl,3 - other_sides,807
+1 - Disorder characterized by Stiff & Painful Muscles,2 - savella,815
+1 - Other,2 - savella,99
+2 - savella,3 - Nausea,914
+1 - Migraine Prevention,2 - topiramate,576
+1 - Other,2 - topiramate,251
+2 - topiramate,3 - Dizziness,474
+1 - Gout,2 - indomethacin,563
+1 - Other,2 - indomethacin,141
+2 - indomethacin,3 - Upset stomach,954
+1 - Depression,2 - paroxetine,354
+1 - Panic Disorder,2 - paroxetine,163
+2 - paroxetine,3 - Nausea,903
+1 - Bipolar Depression,2 - lithium carbonate,468
+1 - Manic-Depression,2 - lithium carbonate,140
+2 - lithium carbonate,3 - other_sides,874
+1 - Acute Bacterial Infection of the Sinuses,2 - augmentin,311
+1 - Other,2 - augmentin,186
+2 - augmentin,3 - Diarrhea,924
+1 - Allergic Asthma,2 - singulair,374
+1 - Asthma Prevention,2 - singulair,278
+2 - singulair,3 - other_sides,1038
+1 - Joint Damage causing Pain and Loss of Function,2 - meloxicam,450
+1 - Other,2 - meloxicam,236
+2 - meloxicam,3 - other_sides,902
+1 - High Blood Pressure,2 - benicar,856
+1 - Other,2 - benicar,17
+2 - benicar,3 - Dizziness,892
+1 - High Blood Pressure,2 - bystolic,704
+1 - Other,2 - bystolic,92
+2 - bystolic,3 - Headache,896
+1 - Breast Cancer,2 - arimidex,248
+1 - Hormone Receptor Positive Postmenopausal Early Breast Cancer,2 - arimidex,218
+2 - arimidex,3 - Hot flashes,643
+1 - Major Depressive Disorder,2 - viibryd,653
+1 - Other,2 - viibryd,205
+2 - viibryd,3 - Diarrhea,858
+1 - High Blood Pressure,2 - hydrochlorothiazide,1519
+1 - Visible Water Retention,2 - hydrochlorothiazide,97
+2 - hydrochlorothiazide,3 - Dizziness,855
+1 - High Blood Pressure,2 - clonidine hcl er,191
+1 - Attention Deficit Disorder with Hyperactivity,2 - clonidine hcl er,72
+2 - clonidine hcl er,3 - Dizziness,440
+1 - Pain,2 - ibuprofen,607
+1 - Joint Damage causing Pain and Loss of Function,2 - ibuprofen,165
+2 - ibuprofen,3 - Nausea,1094
+1 - Cough,2 - benzonatate,842
+1 - Other,2 - benzonatate,15
+2 - benzonatate,3 - Drowsiness,857
+1 - Vaginosis caused by Bacteria,2 - metronidazole,475
+1 - Diverticulitis,2 - metronidazole,101
+2 - metronidazole,3 - other_sides,638
+1 - Skin Infection,2 - bactrim,204
+1 - Bacterial Urinary Tract Infection,2 - bactrim,148
+2 - bactrim,3 - Nausea,823
+1 - Other,2 - clobetasol propionate,328
+1 - Plaque Psoriasis,2 - clobetasol propionate,140
+2 - clobetasol propionate,3 - Burning,158
+1 - Depression,2 - fluoxetine,406
+1 - Panic Disorder,2 - fluoxetine,78
+2 - fluoxetine,3 - Dizziness,760
+1 - Depression,2 - mirtazapine,366
+1 - Other,2 - mirtazapine,198
+2 - mirtazapine,3 - Dizziness,710
+1 - Simple Partial Seizures,2 - keppra,286
+1 - Convulsive Seizures,2 - keppra,240
+2 - keppra,3 - other_sides,785
+1 - High Cholesterol,2 - crestor,399
+1 - Combined High Blood Cholesterol and Triglyceride Level,2 - crestor,153
+2 - crestor,3 - other_sides,767
+1 - Acute Bacterial Infection of the Sinuses,2 - avelox,246
+1 - Other,2 - avelox,139
+2 - avelox,3 - Nausea,765
+1 - Cancer of the Ovary,2 - doxil,16
+1 - Breast Cancer that has Spread to Another Part of the Body,2 - doxil,7
+2 - doxil,3 - Body aches/pains,26
+1 - Chronic Pain,2 - opana,252
+1 - Pain,2 - opana,238
+2 - opana,3 - Nausea,519
+1 - Pain,2 - norco,736
+1 - Other,2 - norco,12
+2 - norco,3 - Nausea,748
+1 - Joint Damage causing Pain and Loss of Function,2 - mobic,361
+1 - Other,2 - mobic,207
+2 - mobic,3 - Stomach  upset,733
+1 - Joint Damage causing Pain and Loss of Function,2 - celebrex,245
+1 - Pain,2 - celebrex,195
+2 - celebrex,3 - Stomach  upset or gas may occur.,745
+1 - Bacterial Urinary Tract Infection,2 - ciprofloxacin,233
+1 - Other,2 - ciprofloxacin,120
+2 - ciprofloxacin,3 - Discomfort,650
+1 - Pain,2 - ultram,503
+1 - Neuropathic Pain,2 - ultram,88
+2 - ultram,3 - Nausea,727
+1 - High Blood Pressure,2 - losartan,717
+1 - Other,2 - losartan,17
+2 - losartan,3 - Dizziness,780
+1 - Other,2 - trileptal,508
+1 - Convulsive Seizures,2 - trileptal,110
+2 - trileptal,3 - Dizziness,754
+1 - Itching,2 - hydroxyzine,213
+1 - Anxious,2 - hydroxyzine,191
+2 - hydroxyzine,3 - other_sides,627

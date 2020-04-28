@@ -1,0 +1,181 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Medicine Explore & Recommendation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/metisMenu.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <!-- amchart css -->
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <!-- others css -->
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/default-css.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- modernizr css -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- bubble chart css -->
+    <link rel="stylesheet" href="bubble/css/reset.css">
+    <link rel="stylesheet" href="bubble/css/bubble_chart.css">
+    <!-- FiveStar css -->
+    <link rel="stylesheet" href="highchart/style.css">
+</head>
+
+<body class="body-bg">
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- preloader area end -->
+    <!-- main wrapper start -->
+    <div class="horizontal-main-wrapper">
+        <!-- header area start -->
+        <div class="header-area header-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-9  d-none d-lg-block">
+                        <div class="horizontal-menu">
+                            <nav>
+                                <ul id="nav_menu">
+                                    <li>
+                                        <a href="index.html"><i class="ti-pie-chart"></i>
+                                            <span>Medicine Overview</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="sankey.html"><i class="fa fa-table"></i>
+                                            <span>Conditions - Medicines - Sides Sankey Diagram</span></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- nav and search button -->
+                    <div class="col-lg-3 clearfix">
+                        <h2>Medicine Explore</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header area end -->
+        <!-- page title area end -->
+        <div class="main-content-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="header-title">Introduction</h3>
+                                <p>Welcome to this Medicine - Symptoms Exploration System.</p>
+                                <p>You can explore the relationships between symptoms, medicines and side effects by <a href="sankey.html"><u><b>clicking the Sankey Diagram</b></u></a> link.</p>
+                                <p>To explore <u>the medicine distributions and our recorded users' demographic distributions</u>, please <a href="#scroll_dock"><u><b>scroll down</b></u></a> the page.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div id="drugDetail"></div>-->
+                    <!-- Statistics area start -->
+                    <div class="col-lg-12 mt-5">
+                        <!--<div class="card">-->
+                            <!--<div class="card-body">-->
+                                <!-- Interactive Bubble chart start -->
+                                <div class="container_bubble" id="scroll_dock">
+                                    <h3>Overview of drugs distribution according to symptoms</h3>
+                                    <p style="margin-bottom: 10px;">Please click each drug's circle to see the details of that drug</p>
+                                    <div id="toolbar">
+                                      <a href="#" id="all" class="button active">All Drugs</a>
+                                      <a href="#" id="condition" class="button">Grugs By Conditions</a>
+                                    </div>
+                                    <div id="vis"></div>
+                                </div>
+                                <!--bubble chart end-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    </div>
+                    <!-- Statistics area end -->
+                   <!-- Statistics area start -->
+                   <div class="col-lg-12 mt-5">
+                    <!--<div class="card">-->
+                        <!--<div class="card-body">-->
+                            <!-- Interactive Bubble chart start -->
+                                <div id="demooverview_container" style="height: 700px"></div>
+                            <!--bubble chart end-->
+                        <!--</div>-->
+                    <!--</div>-->
+                </div>
+                <!-- Statistics area end -->
+
+                </div>
+            </div>
+        </div>
+        <!-- main content area end -->
+        <!-- footer area start-->
+        <footer>
+            <div class="footer-area">
+                <p>CSE - 578 Final Project, WebMD Group #17.</p>
+            </div>
+        </footer>
+        <!-- footer area end-->
+    </div>
+    <!-- main wrapper start -->
+    <!-- offset area start -->
+    <div class="offset-area" style="overflow:auto;">
+        <div class="offset-close"><i class="ti-close"></i></div>
+        <ul class="nav offset-menu-tab">
+            <li><a class="active" data-toggle="tab" href="#activity">Demographic & Rating</a></li>
+            <li><a data-toggle="tab" href="#settings">Topic Model Distribution</a></li>
+        </ul>
+        <div class="offset-content tab-content">
+            <div id="activity" class="tab-pane fade in show active">
+                <div id="drugDetail"></div>
+            </div>
+            <div id="settings" class="tab-pane fade">
+                <div id="topicModelDetail"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- jquery latest version -->
+    <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <!-- bootstrap 4 js -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/jquery.slimscroll.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <!-- bubble chart js -->
+    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script src="bubble/src/tooltip.js"></script>
+    <script src="bubble/src/bubble_overview.js"></script>
+    <!-- demographic overview -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+    <script src="bar_pie/demographic_overview.js"></script>
+    <script src="bar_pie/drug_detail.js"></script>
+    <!-- FiveStar js -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="highchart/fivestar.js"></script>
+    <!-- TopicModel js -->
+    <script src="highchart/topicModel.js"></script>
+    <!-- others plugins -->
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
