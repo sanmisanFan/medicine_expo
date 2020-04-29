@@ -1,10 +1,6 @@
 /* bubbleChart creation function. Returns a function that will
  * instantiate a new bubble chart given a DOM element to display
  * it in and a dataset to visualize.
- *
- * Organization and style inspired by:
- * https://bost.ocks.org/mike/chart/
- *
  */
 function bubbleChart() {
     // Constants for sizing
@@ -489,7 +485,7 @@ function bubbleChart() {
       var content = '<span class="name">Drug name: </span><span class="value">' +
                     d.name +
                     '</span><br/>' +
-                    '<span class="name">Number of records: </span><span class="value">' +
+                    '<span class="name">Recommend Score: </span><span class="value">' +
                     d.value +
                     '</span><br/>' +
                     '<span class="name">Symptom: </span><span class="value">' +

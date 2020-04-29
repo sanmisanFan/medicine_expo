@@ -1,5 +1,5 @@
 var duration = 0;
-var units = "Times";
+var units = "Population Score";
 
 var margin = {top: 10, right: 50, bottom: 30, left: 50};
 
